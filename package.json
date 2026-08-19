@@ -1,0 +1,25 @@
+{
+  "name": "kairos",
+  "version": "1.0.0",
+  "description": "A Node.js project using **Express.js** and **Socket.io** on the backend, with a plain JavaScript (HTML/CSS/JS) frontend.",
+  "homepage": "https://github.com/bumblemusprime7-glitch/kairos#readme",
+  "bugs": {
+    "url": "https://github.com/bumblemusprime7-glitch/kairos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bumblemusprime7-glitch/kairos.git"
+  },
+  "license": "ISC",
+  "author": "Oliver Donnelly, Levi Fulton",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;display=swap">
+<style>
+  body { margin: 0; background: #161826; color: #e9e9ed; font-family: Inter, system-ui, sans-serif; }
+  a { color: #9184d9; text-decoration: none; }
+  a:hover { color: #b3a9e6; }
+</style>
+</helmet>
+
+<section style="padding: 56px 64px 40px; display: flex; flex-direction: column; gap: 34px">
+  <div style="display: flex; flex-direction: column; gap: 8px">
+    <div style="font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #9184d9">Turn 2 · Final</div>
+    <h1 style="margin: 0; font-size: 30px; font-weight: 500; letter-spacing: -0.01em">K monogram, red tile</h1>
+  </div>
+
+  <div id="2a" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-end; padding: 32px; background: #1c1e30; border: 1px solid #2a2c42; border-radius: 8px">
+    <div style="display: flex; align-items: flex-end; gap: 20px">
+      <div style="width: 160px; height: 160px; border-radius: 35px; background: #c12a2a; display: grid; place-items: center">
+        <svg width="160" height="160" viewBox="0 0 32 32" fill="#f4eded"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: center">
+        <div style="width: 64px; height: 64px; border-radius: 14px; background: #c12a2a; display: grid; place-items: center">
+          <svg width="64" height="64" viewBox="0 0 32 32" fill="#f4eded"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+        <span style="font-size: 11px; color: #7c7c8e">64</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: center">
+        <div style="width: 32px; height: 32px; border-radius: 7px; background: #c12a2a; display: grid; place-items: center">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="#f4eded"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+        <span style="font-size: 11px; color: #7c7c8e">32</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: center">
+        <div style="width: 16px; height: 16px; border-radius: 4px; background: #c12a2a; display: grid; place-items: center">
+          <svg width="16" height="16" viewBox="0 0 32 32" fill="#f4eded"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+        <span style="font-size: 11px; color: #7c7c8e">16</span>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; align-items: center; gap: 8px; background: #20223a; border: 1px solid #2a2c42; border-radius: 8px; padding: 8px 14px 8px 10px">
+        <svg width="16" height="16" viewBox="0 0 32 32" style="background: #c12a2a; border-radius: 4px" fill="#f4eded"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        <span style="font-size: 12px; color: #cfcfda">Kairos Chess — Play</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; background: #e9e9ed; border-radius: 8px; padding: 8px 14px 8px 10px">
+        <svg width="16" height="16" viewBox="0 0 32 32" style="background: #c12a2a; border-radius: 4px" fill="#f4eded"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        <span style="font-size: 12px; color: #3a3a48">Kairos Chess — Play</span>
+      </div>
+      <p style="margin: 0; max-width: 30ch; font-size: 12px; line-height: 1.5; color: #a3a3b4">Files in the project: favicon.svg, favicon-16.png, favicon-32.png, apple-touch-icon.png (180), icon-512.png.</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 16px 64px 72px; display: flex; flex-direction: column; gap: 34px">
+  <div style="display: flex; flex-direction: column; gap: 8px">
+    <div style="font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #9184d9">Turn 1 · Kairos Chess</div>
+    <h1 style="margin: 0; font-size: 30px; font-weight: 500; letter-spacing: -0.01em">Favicon marks</h1>
+    <p style="margin: 0; max-width: 52ch; font-size: 14px; line-height: 1.6; color: #a3a3b4">Solid glyph in the Nocturne accent on a rounded-square tile. Each option is drawn on a 32px grid so the small sizes stay on whole pixels.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 22px">
+
+    <div id="1a" style="display: flex; flex-direction: column; gap: 18px; padding: 24px; width: 300px; background: #1c1e30; border: 1px solid #2a2c42; border-radius: 8px">
+      <div style="display: flex; align-items: baseline; gap: 10px">
+        <span style="font-size: 11px; font-weight: 500; letter-spacing: 0.08em; color: #161826; background: #9184d9; padding: 3px 7px; border-radius: 8px">1a</span>
+        <span style="font-size: 15px; font-weight: 500">Clock flag</span>
+      </div>
+      <div style="display: flex; align-items: flex-end; gap: 16px">
+        <div style="width: 96px; height: 96px; border-radius: 21px; background: #20223a; display: grid; place-items: center">
+          <svg width="96" height="96" viewBox="0 0 32 32" fill="#9184d9"><rect x="9" y="6" width="2.5" height="20" rx="0.6"></rect><polygon points="12,7 24.5,11.75 12,16.5"></polygon></svg>
+        </div>
+        <div style="width: 32px; height: 32px; border-radius: 7px; background: #20223a; display: grid; place-items: center">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="#9184d9"><rect x="9" y="6" width="2.5" height="20" rx="0.6"></rect><polygon points="12,7 24.5,11.75 12,16.5"></polygon></svg>
+        </div>
+        <div style="width: 16px; height: 16px; border-radius: 4px; background: #20223a; display: grid; place-items: center">
+          <svg width="16" height="16" viewBox="0 0 32 32" fill="#9184d9"><rect x="9" y="6" width="2.5" height="20" rx="0.6"></rect><polygon points="12,7 24.5,11.75 12,16.5"></polygon></svg>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 40px; height: 40px; border-radius: 9px; background: #9184d9; display: grid; place-items: center">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="#161826"><rect x="9" y="6" width="2.5" height="20" rx="0.6"></rect><polygon points="12,7 24.5,11.75 12,16.5"></polygon></svg>
+        </div>
+        <div style="width: 40px; height: 40px; border-radius: 9px; background: #e9e9ed; display: grid; place-items: center">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="#161826"><rect x="9" y="6" width="2.5" height="20" rx="0.6"></rect><polygon points="12,7 24.5,11.75 12,16.5"></polygon></svg>
+        </div>
+        <p style="margin: 0; font-size: 12px; line-height: 1.5; color: #a3a3b4">The fallen flag — time as the second player.</p>
+      </div>
+    </div>
+
+    <div id="1b" style="display: flex; flex-direction: column; gap: 18px; padding: 24px; width: 300px; background: #1c1e30; border: 1px solid #2a2c42; border-radius: 8px">
+      <div style="display: flex; align-items: baseline; gap: 10px">
+        <span style="font-size: 11px; font-weight: 500; letter-spacing: 0.08em; color: #161826; background: #9184d9; padding: 3px 7px; border-radius: 8px">1b</span>
+        <span style="font-size: 15px; font-weight: 500">K monogram</span>
+      </div>
+      <div style="display: flex; align-items: flex-end; gap: 16px">
+        <div style="width: 96px; height: 96px; border-radius: 21px; background: #20223a; display: grid; place-items: center">
+          <svg width="96" height="96" viewBox="0 0 32 32" fill="#9184d9" style="background: linear-gradient(180deg, #C12A2A, #28211a)"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+        <div style="width: 32px; height: 32px; border-radius: 7px; background: #20223a; display: grid; place-items: center">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="#9184d9"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+        <div style="width: 16px; height: 16px; border-radius: 4px; background: #20223a; display: grid; place-items: center">
+          <svg width="16" height="16" viewBox="0 0 32 32" fill="#9184d9"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 40px; height: 40px; border-radius: 9px; background: #9184d9; display: grid; place-items: center">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="#161826"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+        <div style="width: 40px; height: 40px; border-radius: 9px; background: #e9e9ed; display: grid; place-items: center">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="#161826"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        </div>
+        <p style="margin: 0; font-size: 12px; line-height: 1.5; color: #a3a3b4">Letterform only — no piece to misread at 16px.</p>
+      </div>
+    </div>
+
+    <div id="1c" style="display: flex; flex-direction: column; gap: 18px; padding: 24px; width: 300px; background: #1c1e30; border: 1px solid #2a2c42; border-radius: 8px">
+      <div style="display: flex; align-items: baseline; gap: 10px">
+        <span style="font-size: 11px; font-weight: 500; letter-spacing: 0.08em; color: #161826; background: #9184d9; padding: 3px 7px; border-radius: 8px">1c</span>
+        <span style="font-size: 15px; font-weight: 500">King finial</span>
+      </div>
+      <div style="display: flex; align-items: flex-end; gap: 16px">
+        <div style="width: 96px; height: 96px; border-radius: 21px; background: #20223a; display: grid; place-items: center">
+          <svg width="96" height="96" viewBox="0 0 32 32" fill="#9184d9"><rect x="14.5" y="4" width="3" height="9.5"></rect><rect x="10.5" y="7" width="11" height="3"></rect><circle cx="16" cy="21" r="6.5"></circle></svg>
+        </div>
+        <div style="width: 32px; height: 32px; border-radius: 7px; background: #20223a; display: grid; place-items: center">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="#9184d9"><rect x="14.5" y="4" width="3" height="9.5"></rect><rect x="10.5" y="7" width="11" height="3"></rect><circle cx="16" cy="21" r="6.5"></circle></svg>
+        </div>
+        <div style="width: 16px; height: 16px; border-radius: 4px; background: #20223a; display: grid; place-items: center">
+          <svg width="16" height="16" viewBox="0 0 32 32" fill="#9184d9"><rect x="14.5" y="4" width="3" height="9.5"></rect><rect x="10.5" y="7" width="11" height="3"></rect><circle cx="16" cy="21" r="6.5"></circle></svg>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 40px; height: 40px; border-radius: 9px; background: #9184d9; display: grid; place-items: center">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="#161826"><rect x="14.5" y="4" width="3" height="9.5"></rect><rect x="10.5" y="7" width="11" height="3"></rect><circle cx="16" cy="21" r="6.5"></circle></svg>
+        </div>
+        <div style="width: 40px; height: 40px; border-radius: 9px; background: #e9e9ed; display: grid; place-items: center">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="#161826"><rect x="14.5" y="4" width="3" height="9.5"></rect><rect x="10.5" y="7" width="11" height="3"></rect><circle cx="16" cy="21" r="6.5"></circle></svg>
+        </div>
+        <p style="margin: 0; font-size: 12px; line-height: 1.5; color: #a3a3b4">The king's cross and orb, cropped to its top.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 12px; padding-top: 8px">
+    <div style="font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #a3a3b4">In a browser tab</div>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap">
+      <div style="display: flex; align-items: center; gap: 8px; background: #20223a; border: 1px solid #2a2c42; border-radius: 8px; padding: 8px 14px 8px 10px">
+        <svg width="16" height="16" viewBox="0 0 32 32" fill="#9184d9"><rect x="9" y="6" width="2.5" height="20" rx="0.6"></rect><polygon points="12,7 24.5,11.75 12,16.5"></polygon></svg>
+        <span style="font-size: 12px; color: #cfcfda">Kairos Chess — Play</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; background: #20223a; border: 1px solid #2a2c42; border-radius: 8px; padding: 8px 14px 8px 10px">
+        <svg width="16" height="16" viewBox="0 0 32 32" fill="#9184d9"><rect x="8" y="6" width="3.5" height="20" rx="0.8"></rect><polygon points="13,17 21.5,6 25.5,6 17,17"></polygon><polygon points="13,15 17,15 25.5,26 21.5,26"></polygon></svg>
+        <span style="font-size: 12px; color: #cfcfda">Kairos Chess — Play</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px; background: #20223a; border: 1px solid #2a2c42; border-radius: 8px; padding: 8px 14px 8px 10px">
+        <svg width="16" height="16" viewBox="0 0 32 32" fill="#9184d9"><rect x="14.5" y="4" width="3" height="9.5"></rect><rect x="10.5" y="7" width="11" height="3"></rect><circle cx="16" cy="21" r="6.5"></circle></svg>
+        <span style="font-size: 12px; color: #cfcfda">Kairos Chess — Play</span>
+      </div>
+    </div>
+  </div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1040,&quot;height&quot;:720}}"></script>
+</body>
+</html>
