@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game — Kairos Chess</title>
+    <link rel="stylesheet" href="../assets/main.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../assets/Kairos%20chess%20favicon%20design/favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/Kairos%20chess%20favicon%20design/favicon-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../assets/Kairos%20chess%20favicon%20design/apple-touch-icon.png"
+    />
+  </head>
+  <body class="game-page">
+    <header class="site-header">
+      <div class="container">
+        <a href="../index.html" class="nav-brand">
+          <img
+            src="../assets/Kairos%20chess%20favicon%20design/favicon.svg"
+            alt=""
+          />
+          Kairos<span class="accent">Chess</span>
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./lobby.html">Play</a></li>
+            <li><a href="./rules.html">Rules</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a href="#" class="btn btn-ghost btn-sm">Log In</a>
+          <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="game-layout">
+        <div class="card player-card">
+          <div class="who">
+            <span class="avatar"></span>
+            <div>
+              <strong></strong>
+              <span class="rating"></span>
+            </div>
+          </div>
+          <div class="clock"></div>
+        </div>
+
+        <div class="board-area">
+          <div id="phaser-game"></div>
+        </div>
+
+        <div class="card player-card you">
+          <div class="who">
+            <span class="avatar"></span>
+            <div>
+              <strong></strong>
+              <span class="rating"></span>
+            </div>
+          </div>
+          <div class="clock"></div>
+        </div>
+
+        <aside class="sidebar">
+          <div class="side-panel">
+            <div class="side-panel-head">Move history</div>
+            <div class="side-panel-body">
+              <div class="move-list"></div>
+            </div>
+          </div>
+
+          <div class="side-panel">
+            <div class="side-panel-head">Captured pieces</div>
+            <div class="side-panel-body">
+              <div class="captured-row">
+                <span class="label">You</span>
+                <div class="pieces"></div>
+              </div>
+              <div class="captured-row">
+                <span class="label">Opponent</span>
+                <div class="pieces"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-panel">
+            <div class="side-panel-head">Chat</div>
+            <div class="side-panel-body">
+              <div class="chat-messages"></div>
+              <div class="chat-input-row">
+                <input type="text" placeholder="Send a message&hellip;" />
+                <button type="button" class="btn btn-secondary btn-sm">Send</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-panel">
+            <div class="controls-row">
+              <button type="button" class="btn btn-secondary btn-sm">Draw</button>
+              <button type="button" class="btn btn-secondary btn-sm">Resign</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+    <script src="https://cdn.socket.io/4.8.3/socket.io.min.js"></script>
+    <script type="module" src="../js/app.js"></script>
+  </body>
+</html>

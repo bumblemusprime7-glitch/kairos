@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rules — Kairos Chess</title>
+    <link rel="stylesheet" href="../assets/main.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../assets/Kairos%20chess%20favicon%20design/favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/Kairos%20chess%20favicon%20design/favicon-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../assets/Kairos%20chess%20favicon%20design/apple-touch-icon.png"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="../index.html" class="nav-brand">
+          <img
+            src="../assets/Kairos%20chess%20favicon%20design/favicon.svg"
+            alt=""
+          />
+          Kairos<span class="accent">Chess</span>
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./lobby.html">Play</a></li>
+            <li><a href="./rules.html" class="active">Rules</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a href="#" class="btn btn-ghost btn-sm">Log In</a>
+          <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="article">
+        <h1>Rules &amp; about</h1>
+        <p class="lead">
+          Kairos is a real-time, two-player chess board played over a live
+          connection. Standard chess rules apply.
+        </p>
+
+        <img
+          src="../assets/JohnPablok%20Cburnett%20Chess%20set/example%20board%20with%20pieces.png"
+          alt="A chess board set up with pieces"
+        />
+
+        <h2>Objective</h2>
+        <p>
+          Checkmate your opponent's king &mdash; put it under attack in a way
+          it cannot escape, be blocked, or be defended against.
+        </p>
+
+        <h2>How pieces move</h2>
+        <ul>
+          <li><strong>Pawn</strong> &mdash; forward one square (two on its first move), captures diagonally.</li>
+          <li><strong>Knight</strong> &mdash; moves in an L-shape, and can jump over other pieces.</li>
+          <li><strong>Bishop</strong> &mdash; moves any number of squares diagonally.</li>
+          <li><strong>Rook</strong> &mdash; moves any number of squares horizontally or vertically.</li>
+          <li><strong>Queen</strong> &mdash; moves any number of squares in any direction.</li>
+          <li><strong>King</strong> &mdash; moves one square in any direction.</li>
+        </ul>
+
+        <h2>About this project</h2>
+        <p>
+          Kairos is built with a Phaser-powered board on the frontend and an
+          Express + Socket.io backend for real-time play between two
+          connected players.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Kairos Chess.</p>
+        <ul class="footer-links">
+          <li><a href="./rules.html">Rules</a></li>
+          <li><a href="https://github.com/bumblemusprime7-glitch/kairos">GitHub</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
